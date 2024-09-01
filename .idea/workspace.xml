@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/UrbanViewsModeling.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/3D Point Cloud Segmentation and Shape Recognition.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" afterDir="false" />
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="work with point cloud">
+      <change afterPath="$PROJECT_DIR$/notebooks/3D Mesh from Point Cloud.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/3D Point Cloud Feature Extraction.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/LiDAR Point Cloud Vectorization.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/3D Point Cloud Segmentation and Shape Recognition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/3D Point Cloud Segmentation and Shape Recognition.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;farqlia&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/farqlia/UrbanViewsModeling.git&quot;,
+    &quot;accountId&quot;: &quot;8f44267f-fb2a-46f6-bbba-73f64eb5c772&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -50,21 +59,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\lidar_data" />
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data" />
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\tutorial" />
     </key>
@@ -91,10 +101,30 @@
       <workItem from="1724849631207" duration="4140000" />
       <workItem from="1724862581542" duration="1776000" />
       <workItem from="1724919545257" duration="6547000" />
+      <workItem from="1725016921939" duration="8144000" />
+      <workItem from="1725095844716" duration="769000" />
+      <workItem from="1725117986822" duration="903000" />
+      <workItem from="1725129016619" duration="3340000" />
+      <workItem from="1725178390441" duration="9711000" />
+      <workItem from="1725188228199" duration="513000" />
+      <workItem from="1725188752508" duration="3784000" />
     </task>
+    <task id="LOCAL-00001" summary="work with point cloud">
+      <option name="closed" value="true" />
+      <created>1725034345325</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725034345325</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="work with point cloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="work with point cloud" />
   </component>
 </project>
