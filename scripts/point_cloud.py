@@ -9,12 +9,13 @@ reconstruction = pycolmap.Reconstruction(scene_folder)
 
 print(reconstruction.summary())
 
-for image_id, image in reconstruction.images.items():
-    print(image_id, image)
+camera = reconstruction.cameras[1]
+img = reconstruction.images[1]
+point = reconstruction.points3D[1].xyz
 
-for point3D_id, point3D in reconstruction.points3D.items():
-    print(point3D_id, point3D)
+print(camera.img_from_cam())
 
-for camera_id, camera in reconstruction.cameras.items():
-    print(camera_id, camera)
+print(pycolmap.has_cuda)
+
+
 

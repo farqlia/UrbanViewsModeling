@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="work with camera matrices">
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="change to pinhole camera model">
+      <change beforePath="$PROJECT_DIR$/.idea/UrbanViewsModeling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UrbanViewsModeling.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/point_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/point_cloud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +148,8 @@
       <workItem from="1725379816367" duration="266000" />
       <workItem from="1725449648850" duration="7000" />
       <workItem from="1725450545548" duration="4448000" />
-      <workItem from="1725525408263" duration="4453000" />
+      <workItem from="1725525408263" duration="12464000" />
+      <workItem from="1725543075339" duration="4802000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -171,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725466241181</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change to pinhole camera model">
+      <option name="closed" value="true" />
+      <created>1725530141484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725530141484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,9 +192,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="work with point cloud" />
     <MESSAGE value="work with camera matrices" />
-    <option name="LAST_COMMIT_MESSAGE" value="work with camera matrices" />
+    <MESSAGE value="change to pinhole camera model" />
+    <option name="LAST_COMMIT_MESSAGE" value="change to pinhole camera model" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/UrbanViewsModeling$point_cloud.coverage" NAME="point_cloud Coverage Results" MODIFIED="1725368647820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/UrbanViewsModeling$point_cloud.coverage" NAME="point_cloud Coverage Results" MODIFIED="1725543883776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
