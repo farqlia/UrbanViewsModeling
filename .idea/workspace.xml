@@ -147,7 +147,8 @@
       <workItem from="1725450545548" duration="4448000" />
       <workItem from="1725525408263" duration="12464000" />
       <workItem from="1725543075339" duration="6934000" />
-      <workItem from="1725559018009" duration="3648000" />
+      <workItem from="1725559018009" duration="3880000" />
+      <workItem from="1725691883510" duration="5587000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -189,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725553113866</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="try to figure out how to transform from 3D world coordinates to 2D image plane">
+      <option name="closed" value="true" />
+      <created>1725562919765</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1725562919765</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
