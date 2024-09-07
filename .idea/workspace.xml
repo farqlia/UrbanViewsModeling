@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="are transformations right?">
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="try to figure out what is wrong">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" afterDir="false" />
     </list>
@@ -148,7 +148,7 @@
       <workItem from="1725525408263" duration="12464000" />
       <workItem from="1725543075339" duration="6934000" />
       <workItem from="1725559018009" duration="3880000" />
-      <workItem from="1725691883510" duration="10512000" />
+      <workItem from="1725691883510" duration="11761000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -206,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725700021971</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="try to figure out what is wrong">
+      <option name="closed" value="true" />
+      <created>1725711731882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1725711731882</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,7 +226,8 @@
     <MESSAGE value="change to pinhole camera model" />
     <MESSAGE value="try to figure out how to transform from 3D world coordinates to 2D image plane" />
     <MESSAGE value="are transformations right?" />
-    <option name="LAST_COMMIT_MESSAGE" value="are transformations right?" />
+    <MESSAGE value="try to figure out what is wrong" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to figure out what is wrong" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$point_cloud.coverage" NAME="point_cloud Coverage Results" MODIFIED="1725543883776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
