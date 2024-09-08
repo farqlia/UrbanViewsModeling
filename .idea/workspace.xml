@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="try to figure out what is wrong">
+      <change afterPath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" afterDir="false" />
     </list>
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -59,8 +60,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.point_cloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/PycharmProjects/structure-from-motion&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -77,7 +80,7 @@
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\tutorial" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.test">
     <configuration name="point_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanViewsModeling" />
       <option name="ENV_FILES" value="" />
@@ -101,8 +104,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UrbanViewsModeling" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.point_cloud" />
       </list>
     </recent_temporary>
@@ -148,7 +175,11 @@
       <workItem from="1725525408263" duration="12464000" />
       <workItem from="1725543075339" duration="6934000" />
       <workItem from="1725559018009" duration="3880000" />
-      <workItem from="1725691883510" duration="11761000" />
+      <workItem from="1725691883510" duration="20032000" />
+      <workItem from="1725724028622" duration="3037000" />
+      <workItem from="1725731504986" duration="1367000" />
+      <workItem from="1725781091542" duration="10029000" />
+      <workItem from="1725796369404" duration="5088000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -214,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725711731882</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="try to figure out what is wrong">
+      <option name="closed" value="true" />
+      <created>1725714502762</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725714502762</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,5 +270,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$point_cloud.coverage" NAME="point_cloud Coverage Results" MODIFIED="1725543883776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/UrbanViewsModeling$test.coverage" NAME="test Coverage Results" MODIFIED="1725732207738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
