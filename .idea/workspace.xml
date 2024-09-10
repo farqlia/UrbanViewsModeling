@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="try to figure out another transformation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +63,7 @@
     &quot;Python.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/PycharmProjects/structure-from-motion&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/julia/PycharmProjects/UrbanViews&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -180,6 +181,8 @@
       <workItem from="1725781091542" duration="10029000" />
       <workItem from="1725796369404" duration="5708000" />
       <workItem from="1725882044428" duration="13143000" />
+      <workItem from="1725980954319" duration="1442000" />
+      <workItem from="1725989254356" duration="2876000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
