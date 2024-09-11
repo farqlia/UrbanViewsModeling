@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="transformation figured out">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/geometry/point_transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/geometry/point_transformation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +182,8 @@
       <workItem from="1725882044428" duration="13143000" />
       <workItem from="1725980954319" duration="1442000" />
       <workItem from="1725989254356" duration="4302000" />
-      <workItem from="1726041672149" duration="5562000" />
+      <workItem from="1726041672149" duration="6140000" />
+      <workItem from="1726057191380" duration="5875000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -281,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725993379858</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="transformation figured out">
+      <option name="closed" value="true" />
+      <created>1726050655588</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1726050655588</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

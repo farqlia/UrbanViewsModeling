@@ -106,8 +106,8 @@ def to_screen_coordinates(ndc_coordinates, width, height, zfar, znear):
 
     screen_coordinates = np.zeros((len(ndc_coordinates), 3))
 
-    screen_coordinates[:, 0] = x_off + 0.5 * (ndc_coordinates[:, 0] + 1) * width
-    screen_coordinates[:, 1] = y_off + 0.5 * (ndc_coordinates[:, 1] + 1) * height
+    screen_coordinates[:, 0] = x_off + 0.5 * (-ndc_coordinates[:, 0] + 1) * width
+    screen_coordinates[:, 1] = y_off + 0.5 * (-ndc_coordinates[:, 1] + 1) * height
     screen_coordinates[:, 2] = 0.5 * (zfar - znear) * ndc_coordinates[:, 2] + 0.5 * (zfar + znear)  # can be used to resolve depth
     return screen_coordinates
 
