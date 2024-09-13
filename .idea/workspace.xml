@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="bounding box to be cont.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="bounding box to be cont." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +190,7 @@
       <workItem from="1726238696299" duration="2594000" />
       <workItem from="1726243814976" duration="73000" />
       <workItem from="1726243899594" duration="559000" />
-      <workItem from="1726244675547" duration="7707000" />
+      <workItem from="1726244675547" duration="8110000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -324,7 +320,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726251261930</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="bounding box to be cont.">
+      <option name="closed" value="true" />
+      <created>1726252677281</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1726252677281</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
