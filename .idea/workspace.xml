@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="how to visualize splat???">
-      <change afterPath="$PROJECT_DIR$/notebooks/Open3D.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/UrbanViewsModeling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UrbanViewsModeling.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="next think how rasterize splat?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,7 +189,11 @@
       <workItem from="1726079618133" duration="1131000" />
       <workItem from="1726135304762" duration="7417000" />
       <workItem from="1726148271591" duration="432000" />
-      <workItem from="1726148724312" duration="7621000" />
+      <workItem from="1726148724312" duration="7847000" />
+      <workItem from="1726238696299" duration="2594000" />
+      <workItem from="1726243814976" duration="73000" />
+      <workItem from="1726243899594" duration="559000" />
+      <workItem from="1726244675547" duration="6122000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -308,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726070215795</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="next think how rasterize splat?">
+      <option name="closed" value="true" />
+      <created>1726166898189</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1726166898189</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +333,8 @@
     <MESSAGE value="transformation figured out" />
     <MESSAGE value="point cloud projections" />
     <MESSAGE value="how to visualize splat???" />
-    <option name="LAST_COMMIT_MESSAGE" value="how to visualize splat???" />
+    <MESSAGE value="next think how rasterize splat?" />
+    <option name="LAST_COMMIT_MESSAGE" value="next think how rasterize splat?" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$point_cloud.coverage" NAME="point_cloud Coverage Results" MODIFIED="1725543883776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
