@@ -86,7 +86,7 @@ def get_intrinsic_opengl_params(focal_x,
     return P
 
 
-def cull_coordinates(clip_coordinates):
+def cull_coordinates_ids(clip_coordinates):
     clip_ids = (clip_coordinates[:, 3] < clip_coordinates[:, 0]) & (clip_coordinates[:, 0] < -clip_coordinates[:, 3]) & (
                 clip_coordinates[:, 3] < clip_coordinates[:, 1]) & (clip_coordinates[:, 1] < -clip_coordinates[:, 3])
     return clip_ids
