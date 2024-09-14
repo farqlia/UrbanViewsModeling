@@ -76,16 +76,20 @@ def get_intrinsic_opengl_params(focal_x,
 
     P = np.zeros((4, 4))
 
-    z_sign = 1.0
-
     P[0, 0] = 2.0 * znear / (right - left)
     P[1, 1] = 2.0 * znear / (top - bottom)
     P[0, 2] = (right + left) / (right - left)
     P[1, 2] = (top + bottom) / (top - bottom)
-    P[3, 2] = z_sign
-    P[2, 2] = z_sign * (zfar + znear) / (zfar - znear)  # this is to make depth be in range [0, 1]
+    P[3, 2] = -1.0
+    P[2, 2] = -(zfar + znear) / (zfar - znear)  # this is to make depth be in range [0, 1]
     P[2, 3] = -(zfar * znear) / (zfar - znear)  # this is to make depth be in range [0, 1]
     return P
+
+
+def cull_coordinates(clip_coordinates):
+    clip_ids = (clip_coordinates[:, 3] < clip_coordinates[:, 0]) & (clip_coordinates[:, 0] < -clip_coordinates[:, 3]) & (
+                clip_coordinates[:, 3] < clip_coordinates[:, 1]) & (clip_coordinates[:, 1] < -clip_coordinates[:, 3])
+    return clip_ids
 
 
 def to_ndc_coordinates(clip_coordinates):
@@ -101,6 +105,7 @@ def to_ndc_coordinates(clip_coordinates):
     return ndc_coordinates
 
 
+
 def to_screen_coordinates(ndc_coordinates, width, height, zfar, znear):
     x_off, y_off = 0, 0
 
@@ -111,11 +116,6 @@ def to_screen_coordinates(ndc_coordinates, width, height, zfar, znear):
     screen_coordinates[:, 2] = 0.5 * (zfar - znear) * ndc_coordinates[:, 2] + 0.5 * (zfar + znear)  # can be used to resolve depth
     return screen_coordinates
 
-
-def in_view(ndc_coordinates):
-    selected_ids = (-1 < ndc_coordinates[:, 0]) & (ndc_coordinates[:, 0] < 1) & (-1 < ndc_coordinates[:, 1]) & (
-                ndc_coordinates[:, 1] < 1) & (ndc_coordinates[:, 2] > -1) & (ndc_coordinates[:, 2] < 0)
-    return selected_ids
 
 
 def to_camera_viewpoint(reconstruction: pycolmap.Reconstruction, img_id: int):
