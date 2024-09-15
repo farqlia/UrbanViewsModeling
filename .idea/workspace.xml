@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="bounding box to be cont.">
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="gaussian function">
+      <change afterPath="$PROJECT_DIR$/notebooks/PoC.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UrbanViewsModeling.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/UrbanViewsModeling.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/geometry/point_transformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/geometry/point_transformation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jupyter Notebook" />
         <option value="Python Script" />
+        <option value="Jupyter Notebook" />
       </list>
     </option>
   </component>
@@ -85,7 +89,7 @@
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.reconstruction">
+  <component name="RunManager" selected="Python.test">
     <configuration name="point_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanViewsModeling" />
       <option name="ENV_FILES" value="" />
@@ -157,8 +161,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.reconstruction" />
         <item itemvalue="Python.test" />
+        <item itemvalue="Python.reconstruction" />
         <item itemvalue="Python.point_cloud" />
       </list>
     </recent_temporary>
@@ -227,7 +231,9 @@
       <workItem from="1726301289268" duration="1604000" />
       <workItem from="1726304167688" duration="1659000" />
       <workItem from="1726306580761" duration="10060000" />
-      <workItem from="1726320302443" duration="5688000" />
+      <workItem from="1726320302443" duration="5800000" />
+      <workItem from="1726392085037" duration="1858000" />
+      <workItem from="1726394641824" duration="13846000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -389,7 +395,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726315422662</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="gaussian function">
+      <option name="closed" value="true" />
+      <created>1726326964767</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1726326964767</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,11 +423,12 @@
     <MESSAGE value="how to visualize splat???" />
     <MESSAGE value="next think how rasterize splat?" />
     <MESSAGE value="bounding box to be cont." />
-    <option name="LAST_COMMIT_MESSAGE" value="bounding box to be cont." />
+    <MESSAGE value="gaussian function" />
+    <option name="LAST_COMMIT_MESSAGE" value="gaussian function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$reconstruction.coverage" NAME="reconstruction Coverage Results" MODIFIED="1726309891420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$point_cloud.coverage" NAME="point_cloud Coverage Results" MODIFIED="1725543883776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/UrbanViewsModeling$test.coverage" NAME="test Coverage Results" MODIFIED="1726079588770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/UrbanViewsModeling$test.coverage" NAME="test Coverage Results" MODIFIED="1726394583629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>

@@ -81,14 +81,15 @@ def get_intrinsic_opengl_params(focal_x,
     P[0, 2] = (right + left) / (right - left)
     P[1, 2] = (top + bottom) / (top - bottom)
     P[3, 2] = -1.0
-    P[2, 2] = -(zfar + znear) / (zfar - znear)  # this is to make depth be in range [0, 1]
-    P[2, 3] = -(zfar * znear) / (zfar - znear)  # this is to make depth be in range [0, 1]
+    P[2, 2] = -zfar / (zfar - znear)  # this is to make depth be in range [0, 1]
+    P[2, 3] = -zfar * znear / (zfar - znear)  # this is to make depth be in range [0, 1]
     return P
 
 
-def cull_coordinates_ids(clip_coordinates):
-    clip_ids = (clip_coordinates[:, 3] < clip_coordinates[:, 0]) & (clip_coordinates[:, 0] < -clip_coordinates[:, 3]) & (
-                clip_coordinates[:, 3] < clip_coordinates[:, 1]) & (clip_coordinates[:, 1] < -clip_coordinates[:, 3])
+def cull_coordinates_ids(clip_coordinates, camera_coordinates, zfar, znear):
+    clip_ids = ((clip_coordinates[:, 3] < clip_coordinates[:, 0]) & (clip_coordinates[:, 0] < -clip_coordinates[:, 3]) & (
+                clip_coordinates[:, 3] < clip_coordinates[:, 1]) & (clip_coordinates[:, 1] < -clip_coordinates[:, 3]) &
+                (camera_coordinates[:, 2] <= zfar) & (camera_coordinates[:, 2] >= znear))
     return clip_ids
 
 
