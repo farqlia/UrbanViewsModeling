@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="correct computation for bounding box">
-      <change afterPath="$PROJECT_DIR$/src/splats/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/splats/splats_utils.py" afterDir="false" />
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="cont.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Open3D.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Open3D.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/PoC.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/PoC.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +238,8 @@
       <workItem from="1726591534929" duration="6775000" />
       <workItem from="1726672930846" duration="8230000" />
       <workItem from="1726726222067" duration="1278000" />
-      <workItem from="1726743905373" duration="7499000" />
+      <workItem from="1726743905373" duration="8938000" />
+      <workItem from="1726834983349" duration="2805000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -459,7 +457,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726685048792</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="cont.">
+      <option name="closed" value="true" />
+      <created>1726752799032</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1726752799032</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +492,19 @@
     <MESSAGE value="how to form jacobian matrix?" />
     <MESSAGE value="change idea for computing gradients" />
     <MESSAGE value="correct computation for bounding box" />
-    <option name="LAST_COMMIT_MESSAGE" value="correct computation for bounding box" />
+    <MESSAGE value="cont." />
+    <option name="LAST_COMMIT_MESSAGE" value="cont." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/julia/PycharmProjects/UrbanViews/notebooks/PoC.ipynb</url>
+          <line>171</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$reconstruction.coverage" NAME="reconstruction Coverage Results" MODIFIED="1726309891420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
