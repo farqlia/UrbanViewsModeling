@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="what are spherical harmonics?">
+      <change afterPath="$PROJECT_DIR$/notebooks/Point Net.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Open3D.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Open3D.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/splats/splats_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/splats/splats_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +243,9 @@
       <workItem from="1726834983349" duration="9212000" />
       <workItem from="1726854612797" duration="1184000" />
       <workItem from="1726856231439" duration="4218000" />
-      <workItem from="1726908467351" duration="4182000" />
+      <workItem from="1726908467351" duration="6281000" />
+      <workItem from="1726918408931" duration="628000" />
+      <workItem from="1726919817122" duration="6556000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -485,7 +487,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726860681495</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="what are spherical harmonics?">
+      <option name="closed" value="true" />
+      <created>1726915724056</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726915724056</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
