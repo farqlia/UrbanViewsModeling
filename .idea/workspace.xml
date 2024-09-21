@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="cont.">
-      <change afterPath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" afterDir="false" />
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="what are spherical harmonics?">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/3D Point Cloud Segmentation and Shape Recognition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/3D Point Cloud Segmentation and Shape Recognition.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/PoC.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/PoC.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Open3D.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Open3D.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/splats/splats_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/splats/splats_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,7 +242,8 @@
       <workItem from="1726743905373" duration="8938000" />
       <workItem from="1726834983349" duration="9212000" />
       <workItem from="1726854612797" duration="1184000" />
-      <workItem from="1726856231439" duration="4125000" />
+      <workItem from="1726856231439" duration="4218000" />
+      <workItem from="1726908467351" duration="4182000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -476,7 +477,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726838186335</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="what are spherical harmonics?">
+      <option name="closed" value="true" />
+      <created>1726860681495</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1726860681495</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,18 +513,8 @@
     <MESSAGE value="change idea for computing gradients" />
     <MESSAGE value="correct computation for bounding box" />
     <MESSAGE value="cont." />
-    <option name="LAST_COMMIT_MESSAGE" value="cont." />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook://C:/Users/julia/PycharmProjects/UrbanViews/notebooks/PoC.ipynb</url>
-          <line>177</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="what are spherical harmonics?" />
+    <option name="LAST_COMMIT_MESSAGE" value="what are spherical harmonics?" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$reconstruction.coverage" NAME="reconstruction Coverage Results" MODIFIED="1726309891420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />

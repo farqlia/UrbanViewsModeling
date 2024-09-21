@@ -5,7 +5,7 @@ import numpy.linalg as LA
 import math
 
 def get_bounding_box(mu, cov, extent=3.0):
-    eigenvalues = LA.eigvals(cov)
+    eigenvalues = LA.eigvals(cov) # this can be replaced with torch version
     radius = extent * math.sqrt(abs(eigenvalues.max())) # 3 standard deviations from the center
     bounding_box = np.array([
         mu[0] + radius, # x max
