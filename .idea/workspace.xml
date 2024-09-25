@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="what are spherical harmonics?">
-      <change afterPath="$PROJECT_DIR$/notebooks/Point Net.ipynb" afterDir="false" />
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="point net">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud Projection.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/3D Point Cloud Segmentation and Shape Recognition.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/3D Point Cloud Segmentation and Shape Recognition.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Point Net.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Net.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +244,9 @@
       <workItem from="1726856231439" duration="4218000" />
       <workItem from="1726908467351" duration="6281000" />
       <workItem from="1726918408931" duration="628000" />
-      <workItem from="1726919817122" duration="6556000" />
+      <workItem from="1726919817122" duration="7852000" />
+      <workItem from="1727006417677" duration="3311000" />
+      <workItem from="1727282049830" duration="5102000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -495,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726915724056</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="point net">
+      <option name="closed" value="true" />
+      <created>1726932277272</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1726932277272</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,7 +533,8 @@
     <MESSAGE value="correct computation for bounding box" />
     <MESSAGE value="cont." />
     <MESSAGE value="what are spherical harmonics?" />
-    <option name="LAST_COMMIT_MESSAGE" value="what are spherical harmonics?" />
+    <MESSAGE value="point net" />
+    <option name="LAST_COMMIT_MESSAGE" value="point net" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$reconstruction.coverage" NAME="reconstruction Coverage Results" MODIFIED="1726309891420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
