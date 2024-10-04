@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="some changes">
+      <change afterPath="$PROJECT_DIR$/notebooks/Dataset.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Open3D.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Open3D.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Point Net.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Net.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +80,7 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data" />
+      <recent name="C:\Users\julia\PycharmProjects\UrbanViews\notebooks" />
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\lidar_data" />
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\tutorial" />
     </key>
@@ -256,7 +254,10 @@
       <workItem from="1727804330559" duration="4242000" />
       <workItem from="1727883071219" duration="3138000" />
       <workItem from="1727895609280" duration="1349000" />
-      <workItem from="1727976494383" duration="342000" />
+      <workItem from="1727976494383" duration="6907000" />
+      <workItem from="1728036061891" duration="6462000" />
+      <workItem from="1728049503839" duration="1826000" />
+      <workItem from="1728051813091" duration="2859000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -522,7 +523,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727288353275</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="some changes">
+      <option name="closed" value="true" />
+      <created>1727976840182</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1727976840182</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
