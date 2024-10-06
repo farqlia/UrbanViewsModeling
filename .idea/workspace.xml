@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="notebooks">
-      <change afterPath="$PROJECT_DIR$/notebooks/Dataset.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/Point Cloud Classification.ipynb" afterDir="false" />
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="try to figure out point classification">
+      <change afterPath="$PROJECT_DIR$/notebooks/Point Cloud Segmentation.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Point Net.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Net.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/point_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/point_cloud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Open3D.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Open3D.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Point Cloud Classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Cloud Classification.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.point_cloud">
+  <component name="RunManager" selected="Python.visualization">
     <configuration name="point_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanViewsModeling" />
       <option name="ENV_FILES" value="" />
@@ -160,8 +158,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="visualization" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UrbanViewsModeling" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/visualization.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.visualization" />
         <item itemvalue="Python.point_cloud" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.reconstruction" />
@@ -271,7 +293,11 @@
       <workItem from="1728122910561" duration="7000" />
       <workItem from="1728129024977" duration="3762000" />
       <workItem from="1728140785033" duration="6000" />
-      <workItem from="1728215274664" duration="6196000" />
+      <workItem from="1728215274664" duration="6755000" />
+      <workItem from="1728227650293" duration="228000" />
+      <workItem from="1728227894269" duration="56000" />
+      <workItem from="1728228073376" duration="123000" />
+      <workItem from="1728232234603" duration="11955000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -577,14 +603,21 @@
       <option name="project" value="LOCAL" />
       <updated>1728121921290</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="try to figure out point classification">
+      <option name="closed" value="true" />
+      <created>1728223173142</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1728223173142</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="work with camera matrices" />
     <MESSAGE value="change to pinhole camera model" />
     <MESSAGE value="try to figure out how to transform from 3D world coordinates to 2D image plane" />
     <MESSAGE value="are transformations right?" />
@@ -609,7 +642,8 @@
     <MESSAGE value="some changes" />
     <MESSAGE value="point cloud notebook" />
     <MESSAGE value="notebooks" />
-    <option name="LAST_COMMIT_MESSAGE" value="notebooks" />
+    <MESSAGE value="try to figure out point classification" />
+    <option name="LAST_COMMIT_MESSAGE" value="try to figure out point classification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
