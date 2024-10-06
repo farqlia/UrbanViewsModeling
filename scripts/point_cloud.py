@@ -1,21 +1,13 @@
 import pycolmap
 from pathlib import Path
 
-scene_folder = Path('../data/south-building')
+scene_folder = Path('../data/matrix_city_aerial/train/sparse')
 images_folder = scene_folder / 'images'
 
 database_path = scene_folder / 'database.db'
-reconstruction = pycolmap.Reconstruction(scene_folder)
+reconstruction = pycolmap.Reconstruction(scene_folder / '0')
 
-print(reconstruction.summary())
-
-camera = reconstruction.cameras[1]
-img = reconstruction.images[1]
-point = reconstruction.points3D[1].xyz
-
-print(camera.img_from_cam())
-
-print(pycolmap.has_cuda)
+reconstruction.export_PLY(scene_folder / 'sparse.ply')
 
 
 

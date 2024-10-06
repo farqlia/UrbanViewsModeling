@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="some changes">
+    <list default="true" id="05f0025f-55dd-4d48-b8da-de5061ae3300" name="Changes" comment="notebooks">
       <change afterPath="$PROJECT_DIR$/notebooks/Dataset.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Point Cloud Classification.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Gaussian Splats.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Point Net.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Point Net.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/point_cloud.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/point_cloud.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +83,14 @@
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\south-building" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\birmingham_blocks" />
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data" />
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\notebooks" />
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\lidar_data" />
       <recent name="C:\Users\julia\PycharmProjects\UrbanViews\data\tutorial" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
+  <component name="RunManager" selected="Python.point_cloud">
     <configuration name="point_cloud" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="UrbanViewsModeling" />
       <option name="ENV_FILES" value="" />
@@ -157,9 +162,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.point_cloud" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.reconstruction" />
-        <item itemvalue="Python.point_cloud" />
       </list>
     </recent_temporary>
   </component>
@@ -258,6 +263,15 @@
       <workItem from="1728036061891" duration="6462000" />
       <workItem from="1728049503839" duration="1826000" />
       <workItem from="1728051813091" duration="2859000" />
+      <workItem from="1728061110965" duration="12135000" />
+      <workItem from="1728075237192" duration="198000" />
+      <workItem from="1728075450133" duration="427000" />
+      <workItem from="1728109380706" duration="11297000" />
+      <workItem from="1728122150575" duration="736000" />
+      <workItem from="1728122910561" duration="7000" />
+      <workItem from="1728129024977" duration="3762000" />
+      <workItem from="1728140785033" duration="6000" />
+      <workItem from="1728215274664" duration="6196000" />
     </task>
     <task id="LOCAL-00001" summary="work with point cloud">
       <option name="closed" value="true" />
@@ -531,14 +545,45 @@
       <option name="project" value="LOCAL" />
       <updated>1727976840182</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="point cloud notebook">
+      <option name="closed" value="true" />
+      <created>1728061740904</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1728061740904</updated>
+    </task>
+    <task id="LOCAL-00036" summary="notebooks">
+      <option name="closed" value="true" />
+      <created>1728075108629</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1728075108629</updated>
+    </task>
+    <task id="LOCAL-00037" summary="notebooks">
+      <option name="closed" value="true" />
+      <created>1728075859608</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1728075859608</updated>
+    </task>
+    <task id="LOCAL-00038" summary="notebooks">
+      <option name="closed" value="true" />
+      <created>1728121921290</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1728121921290</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="work with point cloud" />
     <MESSAGE value="work with camera matrices" />
     <MESSAGE value="change to pinhole camera model" />
     <MESSAGE value="try to figure out how to transform from 3D world coordinates to 2D image plane" />
@@ -562,11 +607,24 @@
     <MESSAGE value="what are spherical harmonics?" />
     <MESSAGE value="point net" />
     <MESSAGE value="some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="some changes" />
+    <MESSAGE value="point cloud notebook" />
+    <MESSAGE value="notebooks" />
+    <option name="LAST_COMMIT_MESSAGE" value="notebooks" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook://C:/Users/julia/PycharmProjects/UrbanViews/notebooks/Gaussian Splats.ipynb</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$reconstruction.coverage" NAME="reconstruction Coverage Results" MODIFIED="1726309891420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/UrbanViewsModeling$point_cloud.coverage" NAME="point_cloud Coverage Results" MODIFIED="1725543883776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/UrbanViewsModeling$point_cloud.coverage" NAME="point_cloud Coverage Results" MODIFIED="1728131624115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/UrbanViewsModeling$test.coverage" NAME="test Coverage Results" MODIFIED="1726420969385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
 </project>
