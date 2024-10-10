@@ -4,7 +4,7 @@ from pyntcloud import PyntCloud
 
 # Generate random point cloud data
 
-pt = PyntCloud.from_file('../data/birmingham_block_0/segmented-cloud-subsampled-rgb.ply')
+pt = PyntCloud.from_file('../data/birmingham_blocks/birmingham_block_6.ply')
 
 coords = pt.points[['x', 'y', 'z']].values
 
@@ -14,6 +14,9 @@ z = (coords[:, 2] - np.mean(coords[:, 2])) / np.std(coords[:, 2])
 
 # Create a PolyData object from the points
 point_cloud = pv.PolyData(np.column_stack([x, y, z]))
+
+# point_cloud.save('../data/birmingham_blocks/birmingham_block_6_normalized.ply')
+
 # point_cloud = pv.PolyData(coords)
 point_cloud.cell_data['colors'] = pt.points[['red', 'green', 'blue']].values
 
