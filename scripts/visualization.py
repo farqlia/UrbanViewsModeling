@@ -7,19 +7,23 @@ from pyntcloud import PyntCloud
 
 pt = PyntCloud.from_file('../data/cambridge_blocks/cambridge_block_4_subsampled.ply')
 
-pt.points['class'] = pt.points['scalar_class'].astype(int)
+# pt.points['class'] = pt.points['scalar_class'].astype(int)
 
 coords = pt.points[['x', 'y', 'z']].values
 
-x = (coords[:, 0] - np.mean(coords[:, 0])) / np.std(coords[:, 0])
+"""x = (coords[:, 0] - np.mean(coords[:, 0])) / np.std(coords[:, 0])
 y = (coords[:, 1] - np.mean(coords[:, 1])) / np.std(coords[:, 1])
-z = (coords[:, 2] - np.mean(coords[:, 2])) / np.std(coords[:, 2])
+z = (coords[:, 2] - np.mean(coords[:, 2])) / np.std(coords[:, 2])"""
+
+x = (coords[:, 0] - np.min(coords[:, 0])) / (np.max(coords[:, 0]) - np.min(coords[:, 0]))
+y = (coords[:, 1] - np.min(coords[:, 1])) / (np.max(coords[:, 1]) - np.min(coords[:, 1]))
+z = (coords[:, 2] - np.min(coords[:, 2])) / (np.max(coords[:, 2]) - np.min(coords[:, 2]))
 
 # Create a PolyData object from the points
 point_cloud = pv.PolyData(np.column_stack([x, y, z]))
 # point_cloud = pv.PolyData(coords)
 
-print(pt.points.columns)
+
 print(pt.points.iloc[0])
 # point_cloud.save('../data/birmingham_blocks/birmingham_block_6_normalized.ply')
 
